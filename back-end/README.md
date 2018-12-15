@@ -3,7 +3,7 @@
 **Version**: 1.0.1
 
 ## Overview
-This application stores information about candidates. It takes in a name, an acceptance status, a date/time stamp, and an array that will hold IDs of a secondary model. A name and an acceptance status are required fields, with the name being unique. A user can create a new candidate, update an existing one, find an existing one, and delete an existing one.
+This application stores information about candidates. It takes in a name, an acceptance status, and a date/time stamp. A name and an acceptance status are required fields, with the name being unique. A user can create a new candidate, update an existing one, find an existing one, and delete an existing one.
 
 ## Getting Started
 As a user, you will need to have MongoDB installed on your computer. 

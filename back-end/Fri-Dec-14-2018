@@ -1,0 +1,189 @@
+{"level":"info","message":"Server is listening on port 3000"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: []"}
+{"level":"info","message":"Processing a POST on /api/candidates"}
+{"level":"error","message":"CANDIDATE-ROUTER: Responding with 400 error code"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 400 code and message Candidate name is required"}
+{"level":"info","message":"Server is listening on port 3000"}
+{"level":"info","message":"Processing a POST on /api/candidates"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1442663ebaa02304206b7d\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-14T23:53:10.170Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a POST on /api/candidates"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 409"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: []"}
+{"level":"info","message":"Processing a POST on /api/candidates"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1442bd3ebaa02304206b7f\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-14T23:54:37.059Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1442bd3ebaa02304206b7f\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-14T23:54:37.059Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a POST on /api/candidates"}
+{"level":"error","message":"__ERROR_MIDDLEWARE__"}
+{"level":"error","message":"error"}
+{"level":"info","message":"Responding with a 409"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: []"}
+{"level":"info","message":"Processing a POST on /api/candidates"}
+{"level":"info","message":"Processing a PUT on /api/candidates/5c1443763ebaa02304206b81"}
+{"level":"info","message":"CANDIDATE-ROUTER: responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1443763ebaa02304206b81\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Approved\",\"timestamp\":\"2018-12-14T23:57:42.869Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1443763ebaa02304206b81\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Approved\",\"timestamp\":\"2018-12-14T23:57:42.869Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a POST on /api/candidates"}
+{"level":"info","message":"Processing a DELETE on /api/candidates/5c1450813ebaa02304206b82"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 204 status code"}
+{"level":"info","message":"Processing a POST on /api/candidates"}
+{"level":"info","message":"Processing a PUT on /api/candidates/5c1450a43ebaa02304206b83"}
+{"level":"info","message":"CANDIDATE-ROUTER: responding with a 200 status code"}
+{"level":"info","message":"Processing a DELETE on /api/candidates/5c1450a43ebaa02304206b83"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 204 status code"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1443763ebaa02304206b81\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Approved\",\"timestamp\":\"2018-12-14T23:57:42.869Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1443763ebaa02304206b81\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Approved\",\"timestamp\":\"2018-12-14T23:57:42.869Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1443763ebaa02304206b81\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Approved\",\"timestamp\":\"2018-12-14T23:57:42.869Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a POST on /api/candidates"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1443763ebaa02304206b81\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Approved\",\"timestamp\":\"2018-12-14T23:57:42.869Z\",\"__v\":0},{\"_id\":\"5c1451d33ebaa02304206b84\",\"name\":\"Luke Morrissey\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T00:58:59.089Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1443763ebaa02304206b81\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Approved\",\"timestamp\":\"2018-12-14T23:57:42.869Z\",\"__v\":0},{\"_id\":\"5c1451d33ebaa02304206b84\",\"name\":\"Luke Morrissey\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T00:58:59.089Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a DELETE on /api/candidates/5c1451d33ebaa02304206b84"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 204 status code"}
+{"level":"info","message":"Processing a DELETE on /api/candidates/5c1443763ebaa02304206b81"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 204 status code"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: []"}
+{"level":"info","message":"Server is listening on port 3000"}
+{"level":"info","message":"Server is listening on port 3000"}
+{"level":"info","message":"Server is listening on port 3000"}
+{"level":"info","message":"Server is listening on port 3000"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: []"}
+{"level":"info","message":"Server is listening on port 3000"}
+{"level":"info","message":"Server is listening on port 3000"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: []"}
+{"level":"info","message":"Processing a POST on /api/candidates"}
+{"level":"info","message":"Processing a PUT on /api/candidates/5c14595e2a657e5694c4ffc8"}
+{"level":"info","message":"CANDIDATE-ROUTER: responding with a 200 status code"}
+{"level":"info","message":"Processing a DELETE on /api/candidates/5c14595e2a657e5694c4ffc8"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 204 status code"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: []"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: []"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: []"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: []"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: []"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: []"}
+{"level":"info","message":"Processing a POST on /api/candidates"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1460992a657e5694c4ffc9\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:02:01.183Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1460992a657e5694c4ffc9\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:02:01.183Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1460992a657e5694c4ffc9\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:02:01.183Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1460992a657e5694c4ffc9\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:02:01.183Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1460992a657e5694c4ffc9\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:02:01.183Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1460992a657e5694c4ffc9\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:02:01.183Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1460992a657e5694c4ffc9\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:02:01.183Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1460992a657e5694c4ffc9\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:02:01.183Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1460992a657e5694c4ffc9\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:02:01.183Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1460992a657e5694c4ffc9\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:02:01.183Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1460992a657e5694c4ffc9\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:02:01.183Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1460992a657e5694c4ffc9\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:02:01.183Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a POST on /api/candidates"}
+{"level":"info","message":"Processing a PUT on /api/candidates/5c1460992a657e5694c4ffc9"}
+{"level":"info","message":"CANDIDATE-ROUTER: responding with a 200 status code"}
+{"level":"info","message":"Processing a PUT on /api/candidates/5c1460992a657e5694c4ffc9"}
+{"level":"info","message":"CANDIDATE-ROUTER: responding with a 200 status code"}
+{"level":"info","message":"Processing a DELETE on /api/candidates/5c1460992a657e5694c4ffc9"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 204 status code"}
+{"level":"info","message":"Processing a DELETE on /api/candidates/5c1466ed2a657e5694c4ffca"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 204 status code"}
+{"level":"info","message":"Processing a POST on /api/candidates"}
+{"level":"info","message":"Processing a POST on /api/candidates"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1467822a657e5694c4ffcb\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:31:30.901Z\",\"__v\":0},{\"_id\":\"5c1467872a657e5694c4ffcc\",\"name\":\"Luke Morrissey\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:31:35.554Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1467822a657e5694c4ffcb\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:31:30.901Z\",\"__v\":0},{\"_id\":\"5c1467872a657e5694c4ffcc\",\"name\":\"Luke Morrissey\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:31:35.554Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1467822a657e5694c4ffcb\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:31:30.901Z\",\"__v\":0},{\"_id\":\"5c1467872a657e5694c4ffcc\",\"name\":\"Luke Morrissey\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:31:35.554Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c1467822a657e5694c4ffcb\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:31:30.901Z\",\"__v\":0},{\"_id\":\"5c1467872a657e5694c4ffcc\",\"name\":\"Luke Morrissey\",\"acceptance\":\"Pending\",\"timestamp\":\"2018-12-15T02:31:35.554Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a DELETE on /api/candidates/5c1467872a657e5694c4ffcc"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 204 status code"}
+{"level":"info","message":"Processing a DELETE on /api/candidates/5c1467822a657e5694c4ffcb"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 204 status code"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: []"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: []"}
+{"level":"info","message":"Processing a POST on /api/candidates"}
+{"level":"info","message":"Processing a PUT on /api/candidates/5c14692a2a657e5694c4ffcd"}
+{"level":"info","message":"CANDIDATE-ROUTER: responding with a 200 status code"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c14692a2a657e5694c4ffcd\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Approved\",\"timestamp\":\"2018-12-15T02:38:34.844Z\",\"__v\":0}]"}
+{"level":"info","message":"Processing a GET on /api/candidates"}
+{"level":"info","message":"CANDIDATE ROUTER: responding with 200 status code"}
+{"level":"info","message":"CANDIDATE ROUTER: [{\"_id\":\"5c14692a2a657e5694c4ffcd\",\"name\":\"Lacy Hogan\",\"acceptance\":\"Approved\",\"timestamp\":\"2018-12-15T02:38:34.844Z\",\"__v\":0}]"}

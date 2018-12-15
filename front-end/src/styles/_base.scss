@@ -1,0 +1,48 @@
+@import 'vars';
+
+body {
+  font-family: sans-serif;
+  color: $font-color;
+  margin: 50px;
+  background-image: url("https://i.pinimg.com/474x/be/3c/a8/be3ca8e38e646ac81f858f9ff8aa2a33.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-color: rgba(255, 255, 255, 0.966);
+}
+
+h1 {
+  text-align: center;
+  border: solid blue 5px;
+  background-color: $div-background-color;
+}
+
+.dashboard {
+  margin: 15px;
+}
+
+.newSection {
+  border: solid blue 5px;
+  padding: 10px;
+  background-color: $div-background-color;
+}
+
+.activeSection {
+  border: solid blue 5px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: $div-background-color;
+}
+
+.deleteButton {
+  margin-bottom: 10px;
+  background-color: $error;
+}
+
+button:hover {
+  background-color: $button-color;
+}
+
+.error {
+  color: $error;
+}

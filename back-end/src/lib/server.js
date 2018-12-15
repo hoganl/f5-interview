@@ -2,6 +2,7 @@
 
 import express from 'express';
 import mongoose from 'mongoose';
+import cors from 'cors';
 import logger from './logger';
 import candidateRoutes from '../route/candidate-router';
 import loggerMiddleware from './logger-middleware';
@@ -10,6 +11,10 @@ import errorMiddleware from './error-middleware';
 const app = express();
 let server = null;
 
+app.use(cors({
+  credentials: true,
+  origin: ['http://localhost:3000'],
+}));
 app.use(loggerMiddleware);
 app.use(candidateRoutes);
 
@@ -21,7 +26,7 @@ app.all('*', (request, response) => {
 app.use(errorMiddleware);
 
 const startServer = () => {
-  return mongoose.connect(process.env.MONGODB_URI)
+  return mongoose.connect(process.env.MONGODB_URI, { useCreateIndex: true, useNewUrlParser: true })
     .then(() => {
       server = app.listen(process.env.PORT, () => {
         logger.log(logger.INFO, `Server is listening on port ${process.env.PORT}`);

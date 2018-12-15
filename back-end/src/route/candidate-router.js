@@ -10,7 +10,7 @@ const jsonParser = bodyParser.json();
 const candidateRouter = new Router();
 
 candidateRouter.post('/api/candidates', jsonParser, (request, response, next) => {
-  if (!request.body.location) {
+  if (!request.body.name) {
     logger.log(logger.ERROR, 'CANDIDATE-ROUTER: Responding with 400 error code');
     return next(new HttpErrors(400, 'Candidate name is required'));
   }

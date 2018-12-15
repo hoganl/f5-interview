@@ -12,11 +12,11 @@ export const validateCandidate = (payload) => {
     throw new Error('VALIDATION ERROR: candidate must have an id');
   }
 
-  if (!payload.location) {
+  if (!payload.name) {
     throw new Error('VALIDATION ERROR: candidate must have a name');
   }
 
-  if (!payload.description) {
+  if (!payload.acceptance) {
     throw new Error('VALIDATION ERROR: candidate must have an acceptance status');
   }
 };

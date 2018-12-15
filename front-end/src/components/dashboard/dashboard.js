@@ -15,18 +15,22 @@ class Dashboard extends React.Component {
     } = this.props;
     return (
       <div className='dashboard'>
-        <h2>Candidate App</h2>
-        <CandidateForm 
-          onComplete={candidateCreate}
-          buttonText='Create Candidate'
-        />
+        <h1>Candidates</h1>
+        <h2>Add New Candidate</h2>
+        <div className='newSection'>
+          <CandidateForm 
+            onComplete={candidateCreate}
+            buttonText='Create Candidate'
+          />
+        </div>
+        <h2>Active Candidates</h2>
         {
           candidates.map((candidate) => {
             return (
-              <div key={candidate._id}>
-                <h2>{candidate.name}</h2>
+              <div className='activeSection' key={candidate._id}>
+                <h3>{candidate.name}</h3>
                 <p>{candidate.acceptance}</p>
-                <button onClick={() => candidateDelete(candidate)}>Delete</button>
+                <button className='deleteButton' onClick={() => candidateDelete(candidate)}>Delete</button>
                 <CandidateForm 
                   candidate={candidate}
                   onComplete={candidateUpdate}

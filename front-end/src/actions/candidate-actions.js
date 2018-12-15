@@ -1,7 +1,7 @@
 import superagent from 'superagent';
 
 const candidatesFetch = candidates => ({
-  type: 'CANDIDATE_FETCH',
+  type: 'CANDIDATES_FETCH',
   payload: candidates,
 });
 
